@@ -28,7 +28,7 @@ File 1
 
 This moves to `ListFile 6`, creates the levels in `List 1-4`, and moves back to `ListFile 1`. Once that is done, you can delete the program to finish.
 
-# Programs Appendix
+## Programs Appendix
 
 1. To get to `Str`, do `SHIFT` `4` (CATALOG) and type in `STR`. Press `EXE` to use it where your cursor is.
 2. To get to `List`, do `SHIFT` `1` to place it where your cursor is.
