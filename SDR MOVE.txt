@@ -1,0 +1,16 @@
+'ProgramMode:RUN
+List 24[1]+List 24[5]->I
+If I=0 Or List 24[5]=0
+Then Return
+IfEnd
+23->L
+List 26[I]->T
+Prog "SDR UNPK"
+List 23[List 24[2]]->O
+If O=1
+Then Return
+Else If O<>0
+Then Prog "SDR DEAD"
+Else I->List 24[1]
+IfEnd
+IfEnd
